@@ -25,12 +25,12 @@ button a{
 }
   .navbar-nav a:hover {
     color: #ffea00;
-    border-top: 3px solid #1500ff;
+    border-top: 3px solid #6b21fb;
     transform: scale(1.1);
   }
   
 span{
-    color: #1500ff;
+    color: #6b21fb;
 }
 
 
@@ -47,7 +47,7 @@ button{
 
 
 button:hover{
-    background-color: #1500ff;
+    background-color: #6b21fb;
     color: #fff;
     border: none;
     -webkit-box-shadow: -2px 0px 12px 3px rgb(17, 0, 255);
@@ -133,7 +133,7 @@ button:hover{
 
 }
 .socials{
-    background-color: #1500ff;
+    background-color: #6b21fb;
     
 }
 .socials a{
@@ -160,9 +160,8 @@ button:hover{
 .read-more-button {
     display: none;
     cursor: pointer;
-    color: rgb(0, 17, 255);
+    color: #6b21fb;
 }
-
 .full-text {
     -webkit-line-clamp: unset; /* Show all lines when the full-text class is applied */
 }
@@ -226,7 +225,7 @@ footer{
 
 .contact-me .card{
    
-    border: 3px solid #0224fd;
+    border: 3px solid #6b21fb;
 }
 
 .contact-me h3 {
@@ -250,7 +249,7 @@ textarea::placeholder{
 
 
 .head{
-    background-color: #0037ff;
+    background-color: #6b21fb;
     border-radius: 5px;
     margin-top: -40px;
     -webkit-box-shadow: -2px 0px 12px 3px rgb(141, 152, 255);
@@ -272,13 +271,13 @@ textarea::placeholder{
     bottom: 0;
     left: 0;
     height: 2px;
-    background-color: #002fff;
+    background-color: #6b21fb;
     transition: 0.4s;
 }
 
 .effect-1:focus{
     transition: 0.5s;
-    border: 2px solid  #004fed;
+    border: 2px solid  #6b21fb;
 
 }
 
