@@ -460,3 +460,48 @@ textarea::placeholder{
     color: #6b21fb;
     cursor: pointer;
   }
+
+  .button{
+    border: 3px solid #6e61ff;
+    text-decoration: none;
+    padding: 30px;
+    border-radius: 10px 50px;
+    font-size: 1.5rem;
+  }
+  .button:hover{
+    background-color: #6b21fb;
+    color: #fafbff;
+    border: none;
+  }
+  .case-study-content h1, h3, h2{
+    color: #6b21fb;
+
+  }
+.gallery{
+    background-color: #6e61ff3a;
+    padding: 10px;
+}
+.designprocess p{
+    color: #070e3a;
+    font-size: 10px;
+}
+.designprocess h5{
+    color: #070e3a;
+    
+}
+.designprocess .col{
+    border-radius: 5px;
+    border: 1px solid #dabd02;
+    margin: 10px;
+}
+.designprocess .col:hover{
+    background-color: #6228d625;
+    border-radius: 5px;
+}
+.process{
+    background-color: #ffdd00;
+    padding: 20px;
+    border-radius: 5px;
+    color:#ffffff;
+    font-size: 30px;
+}

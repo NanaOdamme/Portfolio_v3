@@ -40,7 +40,9 @@ justify-content: center;
     background-color: #0bc4c1;
     color: #ffffff;
   }
-
+.content{
+    color: aliceblue;
+}
   
 .content a{
     color: #ffffff;

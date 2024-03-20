@@ -85,7 +85,7 @@ const Filters = {
             title: "The Book Shelf App",
             tags: "UI/UX",
             info: "This is a ui/ux design of a novel or book reading app calles the shelf. click here to view case study and designs",
-            link: "#",
+            link: "casestudy.html",
           },
           {
             image: "images/Afro Yard.jpg",
