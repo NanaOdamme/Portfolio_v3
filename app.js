@@ -80,11 +80,11 @@ const AboutMe = {
     template: `
     <section class="about_me pt-5" id="about">
     <h1 class="mb-5 mt-5 text">{{ mainh }}</h1>
-    <div class="container-md contain pt-4 px-4 mt-5">
+    <div class="container-md contain pt-4 px-3 mt-5">
       <div class="row">
         
         <div class="col-sm-4">
-           <img src="images/about.png" class="img-fluid mb-5 mt-2" alt="">
+           <img src="images/about.png" class="img-fluid mb-4 mt-2" alt="">
         </div>
         
         <div class="col mx-5">
@@ -93,7 +93,7 @@ const AboutMe = {
           <p class="hidden about-p"> {{ text }} </p>
             <span class="read-more-button mb-5 mx-3" onclick="toggleReadMore()">Read More</span>
             
-            <button onclick="window.open('AkosuaCV.pdf', '_blank')" class="rounded-2 mt-3 mb-5 btn1">Download CV</button>
+            <button onclick="window.open('AkosuaCV.pdf', '_blank')" class="rounded-2 mt-3 mb-3 btn1">Download CV</button>
             
         </div>
       </div>
