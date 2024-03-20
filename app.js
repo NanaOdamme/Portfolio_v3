@@ -291,7 +291,11 @@ const ContactMe = {
          <div class="col text-center mb-5">
            <h2>Feel free to contact me</h2>
            <p>I will get back to you as soon as possible!</p>
-          <p class="contact"><i class="icon mx-4 bi bi-telephone"></i>  <i  class="icon mx-4 bi bi-whatsapp"></i> <i  class="icon mx-4 bi bi-envelope"></i></p>
+           <p class="contact">
+           <a href="tel:+233203817652"><i class="icon mx-4 bi bi-telephone" title="Call"></i></a>
+           <a href="https://wa.me/0203817652"><i class="icon mx-4 bi bi-whatsapp" title="WhatsApp"></i></a>
+           <a href="mailto:eronastyles@gmail.com"><i class="icon mx-4 bi bi-envelope" title="Email"></i></a>
+         </p>
            
            
          </div>
