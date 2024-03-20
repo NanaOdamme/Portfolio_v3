@@ -139,14 +139,14 @@ const Portfolio = {
     return {
       projects: [
         {
-          title: 'Landing Page & Login',
-          tags: '#UI/UX #landing Page',
-          image: 'images/Frame 59.jpg'
+          title: 'Novel Reading App Design',
+          tags: '#UI/UX #appdesign',
+          image: 'images/shelf.jpg'
         },
         {
-          title: 'PayCashco',
+          title: 'Step Tracker',
           tags: '#UI/UX # MakePayment Page',
-          image: 'images/Frame 60.jpg'
+          image: 'images/tracker.jpg'
         },
         {
           title: 'Jetservice- a Landing Page',

@@ -56,11 +56,11 @@ const Filters = {
             link: "#",
           },
           {
-            image: "images/Frame 60.jpg",
+            image: "images/404.jpg",
             alt: "Image 1",
-            title: "Cashco Payment",
-            tags: "UI/UX",
-            info: "This is a ui/ux design of a make payment page. click here to view case study and designs",
+            title: "404 page",
+            tags: "Web Dev",
+            info: "I created this 404 web page with vue and bootstap",
             link: "#",
           },
           {
@@ -72,7 +72,7 @@ const Filters = {
             link: "#",
           },
           {
-            image: "images/Frame 59.jpg",
+            image: "images/tracker.jpg",
             alt: "Image 1",
             title: "Step Tracker",
             tags: "Web Dev",
@@ -80,29 +80,14 @@ const Filters = {
             link: "#",
           },
           {
-            image: "images/Frame 60.jpg",
+            image: "images/shelf.jpg",
             alt: "Image 1",
             title: "The Book Shelf App",
             tags: "UI/UX",
             info: "This is a ui/ux design of a novel or book reading app calles the shelf. click here to view case study and designs",
             link: "#",
           },
-          {
-            image: "images/Frame 62.jpg",
-            alt: "Image 1",
-            title: "Step Tracker",
-            tags: "Web Dev",
-            info: "This is a step tracker widget created with vue js and tailwindcss. click here to view code and templates",
-            link: "#",
-          },
-          {
-            image: "images/Frame 59.jpg",
-            alt: "Image 1",
-            title: "Navbar Template",
-            tags: "Web Dev",
-            info: "This is a navnar template created with vue js and bootstrap. click here to view code and templates",
-            link: "#",
-          },
+          
           
         ],
         selectedCategory: "All",
