@@ -87,7 +87,14 @@ const Filters = {
             info: "This is a ui/ux design of a novel or book reading app calles the shelf. click here to view case study and designs",
             link: "#",
           },
-          
+          {
+            image: "images/Afro Yard.jpg",
+            alt: "Image 1",
+            title: "Afro Yard Logo",
+            tags: "Graphic Design",
+            info: "This logo was created for Afro Yard Ghana",
+            link: "#",
+          },
           
         ],
         selectedCategory: "All",
