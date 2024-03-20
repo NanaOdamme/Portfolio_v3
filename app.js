@@ -29,7 +29,7 @@ const HeroSection = {
     
         <div class="row">
             
-          <div class="col-md-6 order-2 order-sm-1 ">   
+          <div class="col-sm-6 order-2 order-sm-1 ">   
             <h2 class="hero-h2 fw-bold display-6"> --I am<br> <span>Nana 
                                                      Akosua.</span></h2>         
             <p class="hero-p">  {{ p1 }}</p>
