@@ -287,75 +287,106 @@ const ContactMe = {
      <h1 class="text pb-5 pt-5">Contact Me</h1>
      <div class="container-md">
        <div class="row">
-        
          <div class="col text-center mb-5">
            <h2>Feel free to contact me</h2>
            <p>I will get back to you as soon as possible!</p>
            <p class="contact">
-           <a href="tel:+233203817652"><i class="icon mx-4 bi bi-telephone" title="Call"></i></a>
-           <a href="https://wa.me/0203817652"><i class="icon mx-4 bi bi-whatsapp" title="WhatsApp"></i></a>
-           <a href="mailto:eronastyles@gmail.com"><i class="icon mx-4 bi bi-envelope" title="Email"></i></a>
-         </p>
-           
-           
+             <a :href="'tel:' + phoneNumber"><i class="icon mx-4 bi bi-telephone" title="Call"></i></a>
+             <a :href="'https://wa.me/' + phoneNumber"><i class="icon mx-4 bi bi-whatsapp" title="WhatsApp"></i></a>
+             <a :href="'mailto:' + emailAddress"><i class="icon mx-4 bi bi-envelope" title="Email"></i></a>
+           </p>
          </div>
          <div class="col-lg-6">
-       <form action="https://api.web3forms.com/submit" method="POST">
-         <input type="hidden" name="access_key" value="54a53885-24ac-4745-9aca-59f3cc24c134">
-       
-         <div class="col mx-auto">
-           <div class="card">
-             <div class="card-body">
-               <div class="row">
-                 <div class="col-lg-8">
-                     <div class="head text-center text-white py-3">
-                       <h3>Get In Touch</h3>
+           <form @submit.prevent="submitForm">
+             <input type="hidden" name="access_key" v-model="accessKey">
+             <div class="col mx-auto">
+               <div class="card">
+                 <div class="card-body">
+                   <div class="row">
+                     <div class="col-lg-8">
+                       <div class="head text-center text-white py-3">
+                         <h3>Get In Touch</h3>
+                       </div>
                      </div>
-                 </div>
-               </div>
-               
-               <div class="form-group row mt-5 py-3">
-                 <label for="name" class="col-sm-3 col-form-label">Name:</label>
-                 <div class="col-sm-9"> 
-                   <input name="name" type="text" class="effect-1 p-2" id="name" placeholder="Your Name" required>
-                   <span class="Focus-border"></span>
-                 </div>
-                 
-               </div>
-
-               <div class="form-group row py-3">
-                 <label for="email" class="col-sm-3 col-form-label">Email:</label>
-                 <div class="col-sm-9">
-                     <input name="email" type="email" class="effect-1 p-2" id="email" placeholder="Your Email" required>
-                     <span class="Focus-border"></span>
                    </div>
-                 </div>         
-
-           <div class="form-group row py-3">
-             <label for="message" class="col-sm-3 col-form-label">Message:</label>
-             <div class="col-sm-9">
-                 <textarea name="message" class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
-                 <span class="Focus-border"></span>
+                   <div class="form-group row mt-5 py-3">
+                     <label for="name" class="col-sm-3 col-form-label">Name:</label>
+                     <div class="col-sm-9">
+                       <input v-model="formData.name" type="text" class="effect-1 p-2" id="name" placeholder="Your Name" required>
+                       <span class="Focus-border"></span>
+                     </div>
+                   </div>
+                   <div class="form-group row py-3">
+                     <label for="email" class="col-sm-3 col-form-label">Email:</label>
+                     <div class="col-sm-9">
+                       <input v-model="formData.email" type="email" class="effect-1 p-2" id="email" placeholder="Your Email" required>
+                       <span class="Focus-border"></span>
+                     </div>
+                   </div>
+                   <div class="form-group row py-3">
+                     <label for="message" class="col-sm-3 col-form-label">Message:</label>
+                     <div class="col-sm-9">
+                       <textarea v-model="formData.message" class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
+                       <span class="Focus-border"></span>
+                     </div>
+                   </div>
+                   <div class="col text-end mt-4">
+                     <button type="submit" class="px-5 mx-5 rounded-2">Send</button>
+                   </div>
+                 </div>
+               </div>
              </div>
-             <div class="col text-end mt-4"> 
-               <button type="submit" class="px-5 mx-5 rounded-2">Send</button>
-           </div>
+           </form>
          </div>
-       
-           </div>
-         </div>
-       </div>
-       
-       </form>
-       
-       </div>
-       <p class="text1  p-3 mt-5 rounded-2">THANKS FOR YOUR PATIENCE!</p>
-       </div>
-     </div>
-
+         <p class="text1  p-3 mt-5 rounded-2">{{ confirmationMessage }}</p>
+       </div>  
+     </div>    
    </section>
-     `
-};
+     `,
+     data() {
+      return {
+        phoneNumber: '+233203817652', 
+        emailAddress: 'eronastyles@gmail.com', 
+        accessKey: '54a53885-24ac-4745-9aca-59f3cc24c134', 
+        formData: {
+          name: '',
+          email: '',
+          message: ''
+        },
+        confirmationMessage: ''
+      };
+    },
+    methods: {
+      async submitForm() {
+        try {
+          const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+              access_key: this.accessKey,
+              ...this.formData
+            })
+          });
+          const data = await response.json();
+          if (data.success) {
+            this.confirmationMessage = 'THANKS FOR YOUR PATIENCE!';
+            this.formData = {
+              name: '',
+              email: '',
+              message: ''
+            };
+          } else {
+            this.confirmationMessage = 'There was an error. Please try again later.';
+          }
+        } catch (error) {
+          this.confirmationMessage = 'There was an error. Please try again later.';
+        }
+      }
+    }
+  };
+
 
 const Footer = {
   template: `
