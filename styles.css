@@ -296,7 +296,7 @@ textarea::placeholder{
     content: "";
     display: block;
     position: absolute;
-    border-bottom: 6px solid #0008ff;
+    border-bottom: 6px solid #6b21fb;
     margin-top: 4px;
     width: 150px;
     transform: translateX(-50%);
@@ -345,7 +345,7 @@ textarea::placeholder{
     transform: scale(1.05);
 }
 .serve:hover i{
-    color: #0027ed;
+    color: #6b21fb;
 }
 
 .popup {
@@ -367,7 +367,7 @@ textarea::placeholder{
     background-color: #fafbff;
    
     padding: 20px;
-    border: 2px solid #2403f9; 
+    border: 2px solid #6b21fb; 
     border-radius: 5px;
     max-width: 80%;
     display: -webkit-box;
@@ -396,7 +396,7 @@ textarea::placeholder{
 .text1{
     font-size: 1.5rem;
     font-weight: 600;
-    background-color: #0008ff;
+    background-color: #6b21fb;
     width: 60%;
     color: #FFF;
     text-align: center;
@@ -453,4 +453,10 @@ textarea::placeholder{
 
   .overlay-content {
     text-align: center;
+  }
+
+  .contact i{
+    font-size: 20px;
+    color: #6b21fb;
+    cursor: pointer;
   }

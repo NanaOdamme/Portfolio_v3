@@ -288,11 +288,11 @@ const ContactMe = {
      <div class="container-md">
        <div class="row">
         
-         <div class="col p-2 mb-5  mx-5">
+         <div class="col text-center mb-5">
            <h2>Feel free to contact me</h2>
            <p>I will get back to you as soon as possible!</p>
-           <p>icon here</p>
-           <p class="text1 p-2 rounded-2">THANKS FOR YOUR PATIENCE!</p>
+          <p class="contact"><i class="icon mx-4 bi bi-telephone"></i>  <i  class="icon mx-4 bi bi-whatsapp"></i> <i  class="icon mx-4 bi bi-envelope"></i></p>
+           
            
          </div>
          <div class="col-lg-6">
@@ -343,8 +343,9 @@ const ContactMe = {
        </div>
        
        </form>
-       </div>
        
+       </div>
+       <p class="text1  p-3 mt-5 rounded-2">THANKS FOR YOUR PATIENCE!</p>
        </div>
      </div>
 
