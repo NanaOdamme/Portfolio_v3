@@ -10,7 +10,7 @@ body{
    
 }
 .navbar-brand h2{
-    color: #ffea00;
+    color: #dabd02;
 }
 .navbar-nav a {
     transition: color 0.3s ease, transform 0.3s ease;
@@ -24,7 +24,7 @@ button a{
     color: #fff;
 }
   .navbar-nav a:hover {
-    color: #ffea00;
+    color: #dabd02;
     border-top: 3px solid #6b21fb;
     transform: scale(1.1);
   }
@@ -35,7 +35,7 @@ span{
 
 
 button{
-    background-color: #ffea00;
+    background-color: #dabd02;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
@@ -113,7 +113,7 @@ button:hover{
     align-items: center;
 }
   .icon:hover {
-    color: #ffff08;
+    color: #dabd02;
     transform: scale(1.1);
     
   }
@@ -180,7 +180,7 @@ footer{
   }
 
   .social-links svg:hover {
-    color: #ffff08;
+    color: #dabd02;
     transform: scale(1.1);
   }
 
@@ -256,7 +256,7 @@ textarea::placeholder{
     outline: none;
     width: 100%;
     padding: 8px 0;
-    border: 2px solid  #f2ff38;
+    border: 2px solid  #dabd02;
     border-radius: 5px;
 }
 
@@ -320,7 +320,7 @@ textarea::placeholder{
 .serve i{
     font-size: 40px;
     margin-bottom: 10px;
-    color: #ffff00;
+    color: #dabd02;
 }
 
 .serve p{
@@ -340,7 +340,7 @@ textarea::placeholder{
    
 }
 .serve:hover{
-    background: #fff700;
+    background: #dabd02;
     color: #fff;
     transform: scale(1.05);
 }
