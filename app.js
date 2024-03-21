@@ -299,7 +299,7 @@ const ContactMe = {
          <div class="col-lg-6 mx-auto">
            <form @submit.prevent="submitForm" class="position-relative">
              <input type="hidden" name="access_key" v-model="accessKey">
-             <div class="card">
+             <div class="card mt-4">
                <div class="card-body">
                  <div class="head text-center text-white py-1">
                      <h3>Get In Touch</h3>
