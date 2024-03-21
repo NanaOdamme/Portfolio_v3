@@ -484,15 +484,13 @@ textarea::placeholder{
   .button{
     border: 3px solid var(--main-color);
     text-decoration: none;
-    padding: 30px;
-    border-radius: 10px 50px;
+    padding: 10px 30px;
+    border-radius: 50px;
     font-size: 1.5rem;
+    background-color: transparent;
+    color: var(--main-color);
   }
-  .button:hover{
-    background-color: var(--main-color)b;
-    color: #fafbff;
-    border: none;
-  }
+
   .case-study-content h1, h3, h2{
     color: var(--main-color);
 
