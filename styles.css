@@ -1,4 +1,10 @@
-
+:root {
+    --main-color: #004da9; /* blue */
+    --secondary-color: #6c757d; /* gray */
+    --success-color: #28a745; /* green */
+    --danger-color: #dc3545; /* red */
+    --second-color: #ffc619; /* yellow */
+  }
 
 body{
     overflow-x: hidden;
@@ -10,12 +16,13 @@ body{
    
 }
 .navbar-brand h2{
-    color: #dabd02;
+    color: var(--second-color);
+    font-size: 1.2rem;
 }
 .navbar-nav a {
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
-    color: #6e61ff;
+    color: var(--main-color);
     font-weight: 600;
     font-size: 1.2rem;
   }
@@ -24,8 +31,8 @@ button a{
     color: #fff;
 }
   .navbar-nav a:hover {
-    color: #dabd02;
-    border-top: 3px solid #6b21fb;
+    color: var(--second-color);;
+    border-top: 3px solid var(--second-color);
     transform: scale(1.1);
   }
   
@@ -35,7 +42,7 @@ span{
 
 
 button{
-    background-color: #dabd02;
+    background-color: var(--second-color);;
     padding: 5px 10px;
     border: none;
     border-radius: 10px;
@@ -47,12 +54,12 @@ button{
 
 
 button:hover{
-    background-color: #6b21fb;
+    background-color: var(--second-color);
     color: #fff;
     border: none;
-    -webkit-box-shadow: -2px 0px 12px 3px rgb(17, 0, 255);
-    -moz-box-shadow: -2px 0px 12px 3px rgb(141, 156, 255);
-    box-shadow: -2px 0px 12px 3px rgb(141, 141, 255);
+    -webkit-box-shadow: -2px 0px 12px 3px rgb(255, 196, 0);
+    -moz-box-shadow: -2px 0px 12px 3px rgb(248, 195, 91);
+    box-shadow: -2px 0px 12px 3px rgb(255, 223, 141);
 }
 
 .hero{
@@ -113,7 +120,7 @@ button:hover{
     align-items: center;
 }
   .icon:hover {
-    color: #dabd02;
+    color: var(--second-color);;
     transform: scale(1.1);
     
   }
@@ -180,7 +187,7 @@ footer{
   }
 
   .social-links svg:hover {
-    color: #dabd02;
+    color: var(--second-color);;
     transform: scale(1.1);
   }
 
@@ -209,27 +216,28 @@ footer{
     transform: translateX(0);
 }
 
-.contact-me{
-    
-    background-size: 100% 100%;
-    width: 100%;
-    height: auto;
 
-}
 
 .contact-me .card{
    
-    border: 3px solid #6b21fb;
+    border: 3px solid var(--main-color);
 }
 
 .contact-me h3 {
     font-weight: 800;
     font-size: 2rem;
 }
+.contact-b{
+    background-color: #dfe1ff3e;
+    border-radius: 10px;
+    padding: 50px;
+}
 label{
     font-weight: bolder;
-    color: #1e0a28;
+    color: var(--main-color);
+    padding-bottom: 10px;
 }
+
 
 input::placeholder{
     font-weight: lighter;
@@ -243,20 +251,31 @@ textarea::placeholder{
 
 
 .head{
-    background-color: #6b21fb;
+    background-color: var(--main-color);
     border-radius: 5px;
     margin-top: -40px;
-    -webkit-box-shadow: -2px 0px 12px 3px rgb(141, 152, 255);
-    -moz-box-shadow: -2px 0px 12px 3px rgb(141, 158, 255);
-    box-shadow: -2px 0px 12px 3px rgb(141, 151, 255);
+    -webkit-box-shadow: -2px 0px 12px 3px rgb(129, 173, 243);
+    -moz-box-shadow: -2px 0px 12px 3px rgb(150, 164, 243);
+    box-shadow: -2px 0px 12px 3px rgb(61, 71, 182);
+}
+.form-group{
+    padding: 10px;
 }
 
-
+    
+.c-h2{
+    font-size: 3rem;
+    color: #0b0e57;
+}
+.c-p{
+    font-size: 1.4rem;
+    color: #0b0e57;
+}
 .effect-1{
     outline: none;
     width: 100%;
     padding: 8px 0;
-    border: 2px solid  #dabd02;
+    border: 2px solid  var(--main-color);
     border-radius: 5px;
 }
 
@@ -265,16 +284,28 @@ textarea::placeholder{
     bottom: 0;
     left: 0;
     height: 2px;
-    background-color: #6b21fb;
     transition: 0.4s;
 }
 
 .effect-1:focus{
     transition: 0.5s;
-    border: 2px solid  #6b21fb;
+    border: 2px solid  var(--second-color);;
 
 }
-
+.text1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: var(--main-color);
+    color: #FFF;
+    text-align: center;
+    -webkit-box-shadow: -2px 0px 12px 3px rgb(129, 173, 243);
+    -moz-box-shadow: -2px 0px 12px 3px rgb(150, 164, 243);
+    box-shadow: -2px 0px 12px 3px rgb(61, 71, 182);
+    
+}
+.submit{
+    background-color: var(--main-color);
+}
 
 
 
@@ -296,7 +327,7 @@ textarea::placeholder{
     content: "";
     display: block;
     position: absolute;
-    border-bottom: 6px solid #6b21fb;
+    border-bottom: 6px solid var(--main-color);
     margin-top: 4px;
     width: 150px;
     transform: translateX(-50%);
@@ -320,7 +351,7 @@ textarea::placeholder{
 .serve i{
     font-size: 40px;
     margin-bottom: 10px;
-    color: #dabd02;
+    color: var(--second-color);;
 }
 
 .serve p{
@@ -340,12 +371,12 @@ textarea::placeholder{
    
 }
 .serve:hover{
-    background: #dabd02;
+    background: var(--second-color);;
     color: #fff;
     transform: scale(1.05);
 }
 .serve:hover i{
-    color: #6b21fb;
+    color: var(--main-color);
 }
 
 .popup {
@@ -367,7 +398,7 @@ textarea::placeholder{
     background-color: #fafbff;
    
     padding: 20px;
-    border: 2px solid #6b21fb; 
+    border: 2px solid var(--main-color); 
     border-radius: 5px;
     max-width: 80%;
     display: -webkit-box;
@@ -388,23 +419,12 @@ textarea::placeholder{
     right: 10px;
     font-size: 28px;
     cursor: pointer;
-    color: rgb(255, 0, 0);
+    color: var(--danger-color);
     font-weight: 600;
    
 }
 
-.text1{
-    font-size: 1.5rem;
-    font-weight: 600;
-    background-color: #6b21fb;
-    width: 60%;
-    color: #FFF;
-    text-align: center;
-    -webkit-box-shadow: -2px 0px 12px 3px rgb(141, 152, 255);
-    -moz-box-shadow: -2px 0px 12px 3px rgb(141, 158, 255);
-    box-shadow: -2px 0px 12px 3px rgb(141, 151, 255);
-    
-}
+
 
 /**new gallery**/
 .gallery-container {
@@ -417,7 +437,7 @@ textarea::placeholder{
     position: relative;
     overflow: hidden;
     margin-bottom: 15px;
-    border: 2px solid #0b0e57;
+    border: 2px solid var(--main-color);
     border-radius: 5px;
   
   }
@@ -462,19 +482,19 @@ textarea::placeholder{
   }
 
   .button{
-    border: 3px solid #6e61ff;
+    border: 3px solid var(--main-color);
     text-decoration: none;
     padding: 30px;
     border-radius: 10px 50px;
     font-size: 1.5rem;
   }
   .button:hover{
-    background-color: #6b21fb;
+    background-color: var(--main-color)b;
     color: #fafbff;
     border: none;
   }
   .case-study-content h1, h3, h2{
-    color: #6b21fb;
+    color: var(--main-color);
 
   }
 .gallery{
@@ -491,7 +511,7 @@ textarea::placeholder{
 }
 .designprocess .col{
     border-radius: 5px;
-    border: 1px solid #dabd02;
+    border: 1px solid var(--second-color);;
     margin: 10px;
 }
 .designprocess .col:hover{
@@ -499,9 +519,10 @@ textarea::placeholder{
     border-radius: 5px;
 }
 .process{
-    background-color: #ffdd00;
+    background-color: var(--second-color);;
     padding: 20px;
     border-radius: 5px;
     color:#ffffff;
     font-size: 30px;
 }
+

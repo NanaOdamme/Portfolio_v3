@@ -283,64 +283,50 @@ const Services = {
 
 const ContactMe = {
      template:`
-     <section class="contact-me p-4 m-1" id="contact">
+     <section class="contact-me" id="contact">
      <h1 class="text pb-5 pt-5">Contact Me</h1>
-     <div class="container-md">
-       <div class="row">
-         <div class="col text-center mb-5">
-           <h2>Feel free to contact me</h2>
-           <p>I will get back to you as soon as possible!</p>
+     <div class="container-md mt-5 ">
+       <div class="row contact-b">
+         <div class="col text-center mb-5 picture-area">
+           <h2 class="c-h2">Feel free to contact me</h2>
+           <p class="c-p">I will get back to you as soon as possible!</p>
            <p class="contact">
              <a :href="'tel:' + phoneNumber"><i class="icon mx-4 bi bi-telephone" title="Call"></i></a>
              <a :href="'https://wa.me/' + phoneNumber"><i class="icon mx-4 bi bi-whatsapp" title="WhatsApp"></i></a>
              <a :href="'mailto:' + emailAddress"><i class="icon mx-4 bi bi-envelope" title="Email"></i></a>
            </p>
          </div>
-         <div class="col-lg-6">
-           <form @submit.prevent="submitForm">
+         <div class="col-lg-6 mx-auto">
+           <form @submit.prevent="submitForm" class="position-relative">
              <input type="hidden" name="access_key" v-model="accessKey">
-             <div class="col mx-auto">
-               <div class="card">
-                 <div class="card-body">
-                   <div class="row">
-                     <div class="col-lg-8">
-                       <div class="head text-center text-white py-3">
-                         <h3>Get In Touch</h3>
-                       </div>
-                     </div>
+             <div class="card">
+               <div class="card-body">
+                 <div class="head text-center text-white py-1">
+                     <h3>Get In Touch</h3>
                    </div>
-                   <div class="form-group row mt-5 py-3">
-                     <label for="name" class="col-sm-3 col-form-label">Name:</label>
-                     <div class="col-sm-9">
-                       <input v-model="formData.name" type="text" class="effect-1 p-2" id="name" placeholder="Your Name" required>
-                       <span class="Focus-border"></span>
-                     </div>
-                   </div>
-                   <div class="form-group row py-3">
-                     <label for="email" class="col-sm-3 col-form-label">Email:</label>
-                     <div class="col-sm-9">
-                       <input v-model="formData.email" type="email" class="effect-1 p-2" id="email" placeholder="Your Email" required>
-                       <span class="Focus-border"></span>
-                     </div>
-                   </div>
-                   <div class="form-group row py-3">
-                     <label for="message" class="col-sm-3 col-form-label">Message:</label>
-                     <div class="col-sm-9">
-                       <textarea v-model="formData.message" class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
-                       <span class="Focus-border"></span>
-                     </div>
-                   </div>
-                   <div class="col text-end mt-4">
-                     <button type="submit" class="px-5 mx-5 rounded-2">Send</button>
-                   </div>
+                 <div class="form-group mt-5">
+                   <label for="name">Name:</label>
+                   <input v-model="formData.name" type="text" class="effect-1 p-2" id="name" placeholder="Your Name" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="email">Email:</label>
+                   <input v-model="formData.email" type="email" class="effect-1 p-2" id="email" placeholder="Your Email" required>
+                 </div>
+                 <div class="form-group">
+                   <label for="message">Message:</label>
+                   <textarea v-model="formData.message" class="effect-1 p-2" id="message" rows="4" placeholder="Your Message"></textarea>
+                 </div>
+                 <div class="text-center mt-4">
+                   <button type="submit" class="submit rounded-2 px-5">Send</button>
                  </div>
                </div>
              </div>
            </form>
          </div>
-         <p class="text1  p-3 mt-5 rounded-2">{{ confirmationMessage }}</p>
-       </div>  
-     </div>    
+         
+       </div>
+       <p class="text1 mt-5 rounded-2 p-2">{{ confirmationMessage }}</p>
+     </div>
    </section>
      `,
      data() {

@@ -1,3 +1,10 @@
+:root {
+    --main-color: #004da9; /* blue */
+    --secondary-color: #6c757d; /* gray */
+    --success-color: #28a745; /* green */
+    --danger-color: #dc3545; /* red */
+    --second-color: #ffc619; /* yellow */
+  }
 .hero{
 background-color: rgba(0, 0, 0, 0.4);
 width: 100%;
@@ -11,12 +18,12 @@ justify-content: center;
 }
 
 .navbar-brand h2{
-    color: #ffea00;
+    color: var(--second-color);
 }
 .navbar-nav a {
     transition: color 0.3s ease, transform 0.3s ease;
     text-decoration: none;
-    color: #ffd000;
+    color: var(--main-color);
     font-weight: 600;
     font-size: 1rem;
     
@@ -25,19 +32,19 @@ justify-content: center;
   }
 
   .navbar-nav a:hover {
-    color: #ffd000;
-    border-top: 3px solid #1500ff;
+    color: var(--second-color);
+    border-top: 3px solid var(--second-color);
     transform: scale(1.1);
   }
  .btn1{
-      background-color: #ffd000;
+      background-color: var(--second-color);
       border-radius: 5px;
       color: #ffffff;
       border: none;
       font-size: 1.2rem;
   }
   .btn1:hover {
-    background-color: #0bc4c1;
+    background-color: var(--second-color);
     color: #ffffff;
   }
 .content{
@@ -52,7 +59,7 @@ justify-content: center;
 }
 
 .content a:hover{
-    background-color: #fff79b;
+    background-color: var(--second-color);
 }
 
 .background-clip{
