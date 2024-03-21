@@ -405,6 +405,9 @@ const Footer = {
 
    `
 };
+
+
+
   //main vue app
   const app = Vue.createApp({
       
