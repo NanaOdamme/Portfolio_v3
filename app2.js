@@ -137,6 +137,14 @@ const Filters = {
             info: "This logo was created for Afro Yard Ghana",
             link: "#",
           },
+          {
+            image: "images/Trifold Brochure.png",
+            alt: "Image 1",
+            title: "Brochure Design",
+            tags: "Graphic Design",
+            info: "A brochure design for a pastry shop",
+            link: "#",
+          },
           
         ],
         selectedCategory: "All",
