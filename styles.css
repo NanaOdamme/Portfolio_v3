@@ -496,10 +496,9 @@ textarea::placeholder{
     color: #fff;
   }
 
-  .case-study-content h1, h3, h2{
-    color: var(--main-color);
-
-  }
+  .casetext{
+    color: var(--main-color);}
+    
 .gallery{
     background-color: #6e61ff3a;
     padding: 10px;
