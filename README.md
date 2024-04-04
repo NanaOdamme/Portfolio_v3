@@ -21,12 +21,13 @@ Communication and Contact: It provides a platform for communication and interact
 Portfolio Updates: Unlike traditional print portfolios, a website allows for easy updates and additions. Professionals can regularly update their portfolio with new projects, achievements, testimonials, and blog posts to keep their audience informed and engaged.
 
 
-[Link to your deployed site](https://nanaodame.netlify.app)
+[Click to open](https://nanaodame.netlify.app)
 
-[Link to final project blog article](https://example.com)
+[Read blog post](https://example.com)
 
-[Author(s) LinkedIn: Author 1](http://www.linkedin.com/in/nana-akosua-odame-addae-3b5bb8206)
-[Author(s) LinkedIn: Author 2](https://gh.linkedin.com/in/kingbygone)
+[Author(s) LinkedIn: Nana Akosua](http://www.linkedin.com/in/nana-akosua-odame-addae-3b5bb8206)
+
+[Author(s) LinkedIn: King Bygone](https://gh.linkedin.com/in/kingbygone)
 
 ## Installation
 This project does not include any installation manual
