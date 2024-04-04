@@ -46,6 +46,9 @@ You can reuse some the code templates for your similar projects
 ## Related Projects
 - [Portfolio_v2](https://github.com/NanaOdamme/portfolio_v2)
 
+## Site images
+![20240404-127 0 0 1-iphone11proxxs (1)](https://github.com/NanaOdamme/Portfolio_v3/assets/133671534/bf13ebce-384e-42b7-9960-c3b3a2670a4d)
+![20240404-127 0 0 1-iphone11proxxs](https://github.com/NanaOdamme/Portfolio_v3/assets/133671534/473afe17-1106-4c02-be7e-deee58c1796c)
 
 ## Licensing
 project not licensed
