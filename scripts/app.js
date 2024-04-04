@@ -124,21 +124,23 @@ const Portfolio = {
       <div class="row">
         <div v-for="(project, index) in projects" :key="index" class="col-md-6">
           <div class="gallery-container mb-4">
-          <div class="gallery-item">
-            <img :src="project.image"  class="image" alt="...">
-            <div class="overlay">
-            <div class="overlay-content">
-              <h5 class="card-title">{{ project.title }}</h5>
-              <p class="card-text">{{ project.tags }}</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
-            </div>
-            </div>
-            </div>
+            <a :href="project.image" target="_blank"> <!-- Added anchor tag around image -->
+              <div class="gallery-item">
+                <img :src="project.image" class="image" alt="...">
+                <div class="overlay">
+                  <div class="overlay-content">
+                    <h5 class="card-title">{{ project.title }}</h5>
+                    <p class="card-text">{{ project.tags }}</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
         <div class="col">
-              <button class="rounded mt-3"><a href="portfolio.html">See More...</a></button>
-            </div>
+          <button class="rounded mt-3"><a href="portfolio.html">See More...</a></button>
+        </div>
       </div>
     </div>
   </section>
@@ -170,6 +172,7 @@ const Portfolio = {
     };
   }
 };
+
 
 // my skilld section template
 const SkillSet = {
