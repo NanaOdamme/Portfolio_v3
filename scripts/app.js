@@ -15,7 +15,7 @@ const NavigationBar = {
             <div class="navbar-nav px-3 ">
               <a class="nav-link" aria-current="page" href="#">Home</a>
               <a class="nav-link" href="#about">About Me</a>
-              <a class="nav-link" href="#portfolio">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
               <a class="nav-link" href="#contact">Contact Me</a>
             </div>
           </div>
