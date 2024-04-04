@@ -1,3 +1,4 @@
+/* declare colors */
 :root {
     --main-color: #004da9; /* blue */
     --secondary-color: #6c757d; /* gray */
@@ -5,6 +6,8 @@
     --danger-color: #dc3545; /* red */
     --second-color: #ffc619; /* yellow */
   }
+
+/* header and hero styles */
 .hero{
 margin-top: 10px;
 background-color: rgba(0, 0, 0, 0.4);
@@ -72,14 +75,12 @@ justify-content: center;
 
 }
 
-
-
+/* project image and text styles */
 .image-container {
     position: relative;
     display: inline-block;
 }
        
-
 .image-container:hover .image-text
  {
     opacity: 1;

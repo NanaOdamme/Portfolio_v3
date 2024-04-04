@@ -1,3 +1,6 @@
+// add vue templates
+
+// navigation bar template
 const NavigationBar = {
     template: `
     <header>
@@ -21,6 +24,8 @@ const NavigationBar = {
     </header>
    `
 };
+
+//hero section template
 const HeroSection = {
     template: `
     
@@ -76,6 +81,8 @@ const HeroSection = {
       }
     }
 };
+
+//about me section template
 const AboutMe = {
     template: `
     <section class="about_me pt-5" id="about">
@@ -108,6 +115,7 @@ const AboutMe = {
     }
 };
 
+// portfolio gallery template
 const Portfolio = {
   template:`
   <section class="portfolio pt-5" id="portfolio">
@@ -163,7 +171,7 @@ const Portfolio = {
   }
 };
 
-
+// my skilld section template
 const SkillSet = {
   template: `
   <section class="skills pt-5 mb-5">
@@ -201,6 +209,7 @@ const SkillSet = {
     }
 };
 
+// services section template
 const Services = {
   template: `
   <section class="services" id="services">
@@ -280,7 +289,7 @@ const Services = {
   
 };
 
-
+// contact me form template
 const ContactMe = {
      template:`
      <section class="contact-me" id="contact">
@@ -291,12 +300,14 @@ const ContactMe = {
            <h2 class="c-h2">Feel free to contact me</h2>
            <p class="c-p">I will get back to you as soon as possible!</p>
            <p class="contact">
+           <!--link to contact -->
              <a :href="'tel:' + phoneNumber"><i class="icon mx-4 bi bi-telephone" title="Call"></i></a>
              <a :href="'https://wa.me/' + phoneNumber"><i class="icon mx-4 bi bi-whatsapp" title="WhatsApp"></i></a>
              <a :href="'mailto:' + emailAddress"><i class="icon mx-4 bi bi-envelope" title="Email"></i></a>
            </p>
          </div>
          <div class="col-lg-6 mx-auto">
+         <!--web3 api for form submission to gmail-->
            <form @submit.prevent="submitForm" class="position-relative">
              <input type="hidden" name="access_key" v-model="accessKey">
              <div class="card mt-4">
@@ -333,7 +344,7 @@ const ContactMe = {
       return {
         phoneNumber: '+233203817652', 
         emailAddress: 'eronastyles@gmail.com', 
-        accessKey: '54a53885-24ac-4745-9aca-59f3cc24c134', 
+        accessKey: '54a53885-24ac-4745-9aca-59f3cc24c134', //access key from web3 forms
         formData: {
           name: '',
           email: '',
@@ -343,6 +354,7 @@ const ContactMe = {
       };
     },
     methods: {
+      // algorithm to fetch api
       async submitForm() {
         try {
           const response = await fetch('https://api.web3forms.com/submit', {
@@ -355,6 +367,7 @@ const ContactMe = {
               ...this.formData
             })
           });
+          // message success or failure
           const data = await response.json();
           if (data.success) {
             this.confirmationMessage = 'THANKS FOR YOUR PATIENCE!';
@@ -373,7 +386,7 @@ const ContactMe = {
     }
   };
 
-
+//footer section template
 const Footer = {
   template: `
   <footer class=" text-light text-white py-4">

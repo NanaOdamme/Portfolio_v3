@@ -1,3 +1,5 @@
+// portfolio page filtering and template
+
 const app4 = Vue.createApp({
     data() {
         return {
@@ -70,6 +72,8 @@ const app4 = Vue.createApp({
                 selectedCategory: "All",
             };
         },
+
+        //main filtering algorithm
         computed: {
             filteredCards() {
                 if (this.selectedCategory === "All") {

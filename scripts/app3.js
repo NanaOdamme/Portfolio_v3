@@ -1,5 +1,8 @@
+// case study page, dynamic rendering
+
+//get id of each project to open its case study
 const params = new URLSearchParams(window.location.search);
-  const cardId = parseInt(params.get('id'));
+const cardId = parseInt(params.get('id'));
 
   const app = Vue.createApp({
     data() {

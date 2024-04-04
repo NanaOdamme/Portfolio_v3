@@ -33,8 +33,6 @@ const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
 
 //popup
-
-
 function closePopup() {
     var popup = document.getElementById("popup");
     popup.style.display = "none";

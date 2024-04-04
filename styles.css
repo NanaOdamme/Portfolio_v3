@@ -1,3 +1,4 @@
+/*main colors*/
 :root {
     --main-color: #004da9; /* blue */
     --secondary-color: #6c757d; /* gray */
@@ -11,6 +12,7 @@ body{
    
     
 }
+/* header and hero styles */
 .navbar{
     background-color: #ffffff;
    
@@ -77,6 +79,7 @@ button:hover{
     border-bottom-style: dashed;
     padding-bottom: 70px;
 }
+/* typewritter effect on hero text */
 .hero-h2{
     font-size: 3rem;
     letter-spacing: 0.4rem;
@@ -124,6 +127,8 @@ button:hover{
     transform: scale(1.1);
     
   }
+
+  /* responsive icons */
 @media screen and (min-width: 360px){
     .socials p{
         font-size: 0.7rem;
@@ -142,7 +147,7 @@ button:hover{
 }
 
 
-
+/* about me styles */
 .contain{
     background-color: #fffdc460;
     color: #170a29;
@@ -168,7 +173,7 @@ button:hover{
 }
 
 
-
+/* portfolio section styles */
 .portfolio .card {
     transition: transform 0.3s ease;
 }
@@ -177,6 +182,7 @@ button:hover{
     transform: scale(1.05);
   }
 
+  /* footer styles */
 footer{
     background-color: #070e3a;
 }
@@ -195,6 +201,7 @@ footer{
     color: #ccc;
   }
 
+  /* skill section styles */
 .skills .custom_img{
 
         width: 50%;
@@ -202,6 +209,7 @@ footer{
 }
 
 
+/* hide and show text styles */
 .hidden {
     opacity: 0;
     transition: all 1s;
@@ -217,7 +225,7 @@ footer{
 }
 
 
-
+/* contact me section styles */
 .contact-me .card{
    
     border: 3px solid var(--main-color);
@@ -306,15 +314,19 @@ textarea::placeholder{
 .submit{
     background-color: var(--main-color);
 }
+.contact i{
+    font-size: 20px;
+    color: #6b21fb;
+    cursor: pointer;
+  }
 
 
 
-
+/* sevices section styles */
 .services .row{
     gap: 50px;
 
 }
-
 
 .text {
     font-weight: 800;
@@ -333,9 +345,6 @@ textarea::placeholder{
     transform: translateX(-50%);
     left: 50%;
 }
-
-
-
 
 .serve{
         text-align: center;
@@ -378,7 +387,7 @@ textarea::placeholder{
 .serve:hover i{
     color: var(--main-color);
 }
-
+/* popup style for service card */ 
 .popup {
     display: none;
     position: fixed;
@@ -426,7 +435,7 @@ textarea::placeholder{
 
 
 
-/**new gallery**/
+/**new gallery styles**/
 .gallery-container {
     display: flex;
     flex-wrap: wrap;
@@ -475,12 +484,8 @@ textarea::placeholder{
     text-align: center;
   }
 
-  .contact i{
-    font-size: 20px;
-    color: #6b21fb;
-    cursor: pointer;
-  }
-
+ 
+/** case study styles **/
   .button{
     border: 3px solid var(--main-color);
     text-decoration: none;

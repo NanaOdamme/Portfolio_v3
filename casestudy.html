@@ -23,6 +23,7 @@
       </div>
     </nav>
     </header>
+    <!--hero section-->
     <section class="hero containder-md text-center pt-5 mb-5">
       <img :src="'images/' + card.image" class="img-fluid background-clip" alt="image">
     <div class="content">
@@ -30,6 +31,8 @@
       <p class="lead">{{ card.heroDescription}}</p>
     </div>
     </section>
+
+    <!--main case study content-->
     <section class="container case-study-content">
     <div class="row p-3">
       <div class="col mb-3">
@@ -82,7 +85,8 @@
     </p>
   </div>
   </section>
-
+  
+  <!--Add an image gallery of your project-->
   <section class="gallery pt-5">
     <div class="row mb-5">
       <div class="col mb-3" v-for="(image, index) in card.galleryImages1" :key="index">
