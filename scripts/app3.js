@@ -318,6 +318,55 @@ const cardId = parseInt(params.get('id'));
           'caseimages/shelf (2).png'
         ]
         },
+        {
+          id: 8,
+          heroDescription: "Buy, sell and bid",
+          image: "dota.png",
+          title: "DOTA",
+          tags: "UI/UX",
+          info: "An app design for an art shop",
+          buttonText: "See MoodBoard",
+          link : "",
+          h1: "DOTA",
+          background: "DOTA is an innovative mobile application designed to revolutionize the art market by combining art sales with a bidding system. The app aims to provide a seamless and engaging experience for both artists and art enthusiasts, allowing them to discover, buy, and bid on unique artworks from around the world.",
+          researchText: "The research and analysis phase for the DOTA art selling and bidding app involved comprehensive market research, competitor analysis, and user feedback collection. We delved into understanding the diverse needs of artists, art collectors, and bidders while studying current art market trends and competitor offerings. Through user surveys, interviews, and data analysis, we identified key pain points and preferences, informing our design decisions for creating an intuitive and engaging UI/UX. Additionally, we explored emerging technologies and legal considerations to ensure the app's compliance and integration of cutting-edge features for a seamless art buying and bidding experience.",
+            keyFeaturesList: [
+            "Artwork Showcase",
+            "Bidding System",
+            "Artist Profiles",
+            "Personalized Recommendations",
+            "Secure Transactions",
+
+          ],
+            futureEnhancementsList: [
+            "Live Auctions and Events",
+            "Community Engagement Features",
+            "Advanced Analytics and Insights",
+          ],
+          challengeText: "The primary challenge was to create a user interface (UI) and user experience (UX) design that caters to the diverse needs of artists, buyers, and bidders while ensuring a visually appealing and intuitive platform.",
+        goalsList: [
+          "Create a visually stunning interface that highlights artwork effectively.",
+          "Ensure seamless navigation and user flow for browsing, buying, and bidding",
+          "Incorporate interactive features to engage users and encourage repeat usage.",
+          "Implement secure and efficient payment and bidding systems.",
+          "Provide personalized recommendations based on user preferences.",
+        ],
+        galleryImages1: [
+          
+          'caseimages/dota1 (2).png',
+          'caseimages/dota1 (3).png',
+          'caseimages/dota1 (4).png',],
+        galleryImages2:[
+          'caseimages/dota1 (5).png',
+          'caseimages/dota1 (6).png',
+          'caseimages/dota1 (7).png',
+          'caseimages/dota1 (8).png',],
+        galleryImages3:[
+          'caseimages/dota1 (9).png',
+          'caseimages/dota1 (1).png',
+          
+        ]
+        },
         
         ],
         designSteps: [

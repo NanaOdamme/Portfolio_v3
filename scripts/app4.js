@@ -67,6 +67,15 @@ const app4 = Vue.createApp({
                   info: "A brochure design for a pastry shop",
                   link: "#",
                 },
+                {
+                    id: 8,
+                    image: "images/dota.png",
+                    alt: "Image 1",
+                    title: "DOTA",
+                    tags: "UI/UX",
+                    info: "An app design for an art shop",
+                    link: "#",
+                  },
         
                 ],
                 selectedCategory: "All",
