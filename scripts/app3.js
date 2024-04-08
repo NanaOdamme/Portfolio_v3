@@ -367,6 +367,52 @@ const cardId = parseInt(params.get('id'));
           
         ]
         },
+        {
+        id: 9,
+        heroDescription: "Buy, sell and bid",
+        image: "color picker.jpg",
+        title: "COLOR PICKER",
+        tags: "Web Dev",
+        info: "choose a color get a pallet",
+        buttonText: "See Code",
+        link : "",
+        h1: "COLOR PICKER",
+        background: "The Color Palette Generator (CPG) is a web application created using Vue.js and Tailwind CSS. The idea behind CPG is to provide designers and developers with a tool that can generate beautiful and harmonious color palettes for their projects. The tool utilizes algorithms to analyze color schemes and present users with curated palettes based on their preferences and needs.",
+        researchText: "Before developing CPG, extensive research was conducted to understand the needs of designers and developers when it comes to color selection. Interviews, surveys, and market analysis were carried out to identify pain points and existing solutions in the market. The research revealed a demand for a user-friendly, customizable, and efficient color palette generator that integrates seamlessly into the design workflow.",
+          keyFeaturesList: [
+          "Color Scheme Generation",
+      
+
+        ],
+          futureEnhancementsList: [
+          "Customization Options",
+          "Export and Integration",
+          "Preview and Comparison",
+        ],
+        challengeText: "Algorithm Complexity: Developing robust algorithms for color scheme generation while ensuring speed and accuracy can be challenging. Cross-Browser Compatibility: Ensuring consistent performance and appearance across different web browsers and devices. User Experience Design: Balancing functionality with a clean and intuitive user interface to provide a seamless user experience for both novice and experienced users.",
+      goalsList: [
+        "User Satisfaction: The primary goal of CPG is to meet the diverse needs of designers and developers, enhancing their productivity and creativity in color selection.",
+        "Industry Recognition: CPG aims to become a leading tool in the design community, known for its innovation, reliability, and user-centric approach.",
+        "Incorporate interactive features to engage users and encourage repeat usage.",
+        "Continuous Improvement: Regular updates and enhancements based on user feedback and technological advancements to stay ahead of the competition and remain relevant in the market.",
+        "Provide personalized recommendations based on user preferences.",
+      ],
+      galleryImages1: [
+        
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',],
+      galleryImages2:[
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',],
+      galleryImages3:[
+        'caseimages/',
+        'caseimages/',
+        
+      ]
+      },
         
         ],
         designSteps: [

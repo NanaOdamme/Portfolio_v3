@@ -76,6 +76,16 @@ const app4 = Vue.createApp({
                     info: "An app design for an art shop",
                     link: "#",
                   },
+                  {
+                    id: 9,
+                    image: "images/color picker.jpg",
+                    alt: "Image 1",
+                    title: "COLOR PICKER",
+                    tags: "Web Dev",
+                    info: "A color pallet generator",
+                    link: "#",
+                  },
+
         
                 ],
                 selectedCategory: "All",
