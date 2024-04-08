@@ -38,20 +38,14 @@ const cardId = parseInt(params.get('id'));
           "Optimize performance and responsiveness across different devices and platforms.",
         ],
         galleryImages1: [
-          'caseimages/shelf (11).png',
-          'caseimages/shelf (12).png',
-          'caseimages/shelf (10).png',
-          'caseimages/shelf (13).png',],
+          'caseimages/jet (1).png',
+          'caseimages/jet (2).png',
+          'caseimages/jet (3).png',
+          'caseimages/jet (4).png',],
         galleryImages2:[
-          'caseimages/shelf (9).png',
-          'caseimages/shelf (8).png',
-          'caseimages/shelf (7).png',
-          'caseimages/shelf (6).png',],
+          '',],
         galleryImages3:[
-          'caseimages/shelf (5).png',
-          'caseimages/shelf (4).png',
-          'caseimages/shelf (3).png',
-          'caseimages/shelf (2).png'
+          '',
         ]
           },
           {
