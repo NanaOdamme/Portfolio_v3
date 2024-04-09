@@ -100,7 +100,7 @@ const AboutMe = {
           <p class="hidden about-p"> {{ text }} </p>
             <span class="read-more-button mb-5 mx-3" onclick="toggleReadMore()">Read More</span>
             
-            <button onclick="window.open('AkosuaCV.pdf', '_blank')" class="rounded-2 mt-3 mb-3 btn1">Download CV</button>
+            <button onclick="window.open('my cv.pdf', '_blank')" class="rounded-2 mt-3 mb-3 btn1">Download CV</button>
             
         </div>
       </div>
