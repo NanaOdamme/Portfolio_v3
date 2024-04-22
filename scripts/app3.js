@@ -415,7 +415,7 @@ const cardId = parseInt(params.get('id'));
         tags: "UI/UX",
         info: "A ui / ux design for a ladies shopping app",
         buttonText: "See Prototype",
-        link : "",
+        link : "https://www.figma.com/proto/DmNzXfh8NmOwfIaWHOWtDY/working-bord?page-id=184%3A2758&type=design&node-id=211-21&viewport=63%2C190%2C0.36&t=5htSqXtOZgWxLpkD-1&scaling=scale-down&starting-point-node-id=215%3A212&show-proto-sidebar=1&mode=design",
         h1: "THE SHOPBAG APP UI/UX DESIGN",
         background: "Shop Bag is a comprehensive e-commerce platform tailored specifically for women's clothing and accessories. It aims to offer a seamless shopping experience through intuitive user interfaces and engaging user experiences. The project focuses on creating a visually appealing and user-friendly application that caters to the diverse needs of modern women shoppers.",
         researchText: "he research phase for Shop Bag involved navigating a competitive market, analyzing user preferences for effective personalization, ensuring cross-platform consistency, addressing security concerns, optimizing performance, incorporating feedback efficiently, and maintaining brand identity consistency, leading to an informed and successful design strategy for the app.",
