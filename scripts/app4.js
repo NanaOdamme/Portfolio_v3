@@ -85,6 +85,15 @@ const app4 = Vue.createApp({
                     info: "A color pallet generator",
                     link: "#",
                   },
+                  {
+                  id: 10,
+                  image: "images/shop (3).png",
+                  alt: "Image 1",
+                  title: "THE SHOPBAG",
+                  tags: "UI/UX",
+                  info: "App Design for Online Shop",
+                  link: "#",
+                },
 
         
                 ],

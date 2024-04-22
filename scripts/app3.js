@@ -410,7 +410,7 @@ const cardId = parseInt(params.get('id'));
       {
         id: 10,
         heroDescription: "Shopping at your finger tips",
-        image: "color picker.jpg",
+        image: "shop (3).png",
         title: "THE SHOPBAG",
         tags: "UI/UX",
         info: "A ui / ux design for a ladies shopping app",
@@ -439,17 +439,26 @@ const cardId = parseInt(params.get('id'));
       ],
       galleryImages1: [
         
-        'caseimages/',
-        'caseimages/',
-        'caseimages/',],
+        'caseimages/shop (2).png',
+        'caseimages/shop (3).png',
+        'caseimages/shop (4).png',],
       galleryImages2:[
-        'caseimages/',
-        'caseimages/',
-        'caseimages/',
-        'caseimages/',],
+        'caseimages/shop (1).png',
+        'caseimages/shop (5).png',
+        'caseimages/shop (6).png',
+        'caseimages/shop (7).png',
+        'caseimages/shop (13).png',
+        'caseimages/shop (14).png',
+        'caseimages/shop (16).png',
+      ],
       galleryImages3:[
-        'caseimages/',
-        'caseimages/',
+        'caseimages/shop (8).png',
+        'caseimages/shop (9).png',
+        'caseimages/shop (10).png',
+        'caseimages/shop (11).png',
+        'caseimages/shop (12).png',
+        'caseimages/shop (15).png',
+        'caseimages/shop (17).png',
         
       ]
       },
