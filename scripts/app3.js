@@ -363,7 +363,7 @@ const cardId = parseInt(params.get('id'));
         },
         {
         id: 9,
-        heroDescription: "Buy, sell and bid",
+        heroDescription: "Get your colors right!",
         image: "color picker.jpg",
         title: "COLOR PICKER",
         tags: "Web Dev",
@@ -390,6 +390,52 @@ const cardId = parseInt(params.get('id'));
         "Incorporate interactive features to engage users and encourage repeat usage.",
         "Continuous Improvement: Regular updates and enhancements based on user feedback and technological advancements to stay ahead of the competition and remain relevant in the market.",
         "Provide personalized recommendations based on user preferences.",
+      ],
+      galleryImages1: [
+        
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',],
+      galleryImages2:[
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',
+        'caseimages/',],
+      galleryImages3:[
+        'caseimages/',
+        'caseimages/',
+        
+      ]
+      },
+      {
+        id: 10,
+        heroDescription: "Shopping at your finger tips",
+        image: "color picker.jpg",
+        title: "THE SHOPBAG",
+        tags: "UI/UX",
+        info: "A ui / ux design for a ladies shopping app",
+        buttonText: "See Prototype",
+        link : "",
+        h1: "THE SHOPBAG APP UI/UX DESIGN",
+        background: "Shop Bag is a comprehensive e-commerce platform tailored specifically for women's clothing and accessories. It aims to offer a seamless shopping experience through intuitive user interfaces and engaging user experiences. The project focuses on creating a visually appealing and user-friendly application that caters to the diverse needs of modern women shoppers.",
+        researchText: "he research phase for Shop Bag involved navigating a competitive market, analyzing user preferences for effective personalization, ensuring cross-platform consistency, addressing security concerns, optimizing performance, incorporating feedback efficiently, and maintaining brand identity consistency, leading to an informed and successful design strategy for the app.",
+          keyFeaturesList: [
+          "Product Catalog",
+          "Product Details",
+          "Homepage",
+          "Wishlist & Favorites",
+
+        ],
+          futureEnhancementsList: [
+          "Customer Support",
+          "Secure Checkout",
+        ],
+        challengeText: "Shop Bag faced challenges in a competitive market, ensuring user personalization, maintaining cross-platform consistency, addressing security concerns, optimizing performance, incorporating feedback effectively, and upholding brand identity consistency, yet overcame them to create an elegant, user-friendly shopping platform for women's clothing and accessories.",
+      goalsList: [
+        "User Engagement: Create an immersive shopping experience that keeps users engaged and encourages them to explore a wide range of products.",
+        "Simplicity: Design a clean and intuitive UI/UX to simplify the shopping process and enhance user satisfaction.",
+        "Personalization: Implement features like personalized recommendations and wish lists to make shopping more personalized and enjoyable for users.",
+        "Brand Identity: Reflect the brand's identity through visual elements, colors, and typography that resonate with the target audience.",
       ],
       galleryImages1: [
         
